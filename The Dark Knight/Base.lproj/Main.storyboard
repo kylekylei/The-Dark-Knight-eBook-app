@@ -1,24 +1,1320 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SQh-uI-cLE">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--The Dark Knight-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="The_Dark_Knight" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zbk-3K-nUd">
+                                <rect key="frame" x="4" y="0.0" width="410" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" image="741650" translatesAutoresizingMaskIntoConstraints="NO" id="AUi-hq-Lo5">
+                                        <rect key="frame" x="0.0" y="0.0" width="1434" height="896"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="AUi-hq-Lo5" secondAttribute="height" multiplier="717:448" id="bgM-wJ-HIy"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="U87-ht-f4f">
+                                        <rect key="frame" x="16" y="277" width="200" height="59.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="OUk-77-U8n">
+                                                <rect key="frame" x="0.0" y="0.0" width="135" height="14.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.87" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2005" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkf-3H-1Ti">
+                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="14.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.87" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Batman Begins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ojm-9m-2qN">
+                                                        <rect key="frame" x="50" y="0.0" width="85" height="14.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="qJz-8M-uE9">
+                                                <rect key="frame" x="0.0" y="22.5" width="142" height="14.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.87" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2008" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BlT-dM-CCX">
+                                                        <rect key="frame" x="0.0" y="0.0" width="30.5" height="14.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.87" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Dark Knight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q24-51-WM2">
+                                                        <rect key="frame" x="50.5" y="0.0" width="91.5" height="14.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="FrQ-Wx-xjo">
+                                                <rect key="frame" x="0.0" y="45" width="173" height="14.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.87" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2012" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nmr-WU-SQz">
+                                                        <rect key="frame" x="0.0" y="0.0" width="28" height="14.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.87" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Dark Knight Rises" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kc5-v3-LL0">
+                                                        <rect key="frame" x="48" y="0.0" width="125" height="14.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="wmi-ZY-0i5"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="AUi-hq-Lo5" firstAttribute="top" secondItem="KTv-Ww-Mpy" secondAttribute="top" id="1X1-xg-ceZ"/>
+                                    <constraint firstItem="AUi-hq-Lo5" firstAttribute="leading" secondItem="0je-TT-6ke" secondAttribute="leading" id="5cA-ev-0m0"/>
+                                    <constraint firstItem="AUi-hq-Lo5" firstAttribute="trailing" secondItem="0je-TT-6ke" secondAttribute="trailing" id="c2F-tD-b6j"/>
+                                    <constraint firstItem="AUi-hq-Lo5" firstAttribute="bottom" secondItem="KTv-Ww-Mpy" secondAttribute="bottom" id="ecC-m1-9M9"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="0je-TT-6ke"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="KTv-Ww-Mpy"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="U87-ht-f4f"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lsh-ya-ju2">
+                                <rect key="frame" x="24" y="104" width="366" height="135"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.87" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Christopher Nolan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZAU-MN-7TT">
+                                        <rect key="frame" x="0.0" y="0.0" width="146" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.87" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Dark Knight Trilogy" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Smf-JN-weE">
+                                        <rect key="frame" x="0.0" y="29.5" width="296" height="105.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="44"/>
+                                        <color key="textColor" systemColor="systemOrangeColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="JkM-KS-9Em">
+                                <rect key="frame" x="24" y="264" width="195" height="75"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ntK-54-M77">
+                                        <rect key="frame" x="0.0" y="0.0" width="157" height="25"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="scaleAspectFit" image="icon_batman" translatesAutoresizingMaskIntoConstraints="NO" id="sVY-Fv-0tM">
+                                                <rect key="frame" x="0.0" y="0.0" width="20" height="25"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="25" id="Nma-QW-nbV"/>
+                                                    <constraint firstAttribute="width" constant="20" id="NtP-2x-MdI"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2005 - Batman Begins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVn-GH-12X">
+                                                <rect key="frame" x="30" y="5.5" width="127" height="14.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VK1-XI-33X">
+                                        <rect key="frame" x="0.0" y="25" width="160.5" height="25"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="scaleAspectFit" image="icon_batman" translatesAutoresizingMaskIntoConstraints="NO" id="n0L-gR-874">
+                                                <rect key="frame" x="0.0" y="0.0" width="20" height="25"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="25" id="HJH-3l-oIc"/>
+                                                    <constraint firstAttribute="width" constant="20" id="b2A-ZO-g0q"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="g0b-OM-qfP"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2008- The Dark Knight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UNq-fJ-Ooo">
+                                                <rect key="frame" x="30" y="5.5" width="130.5" height="14.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Zgn-DB-CrC">
+                                        <rect key="frame" x="0.0" y="50" width="195" height="25"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="scaleAspectFit" image="icon_batman" translatesAutoresizingMaskIntoConstraints="NO" id="jth-CL-7E7">
+                                                <rect key="frame" x="0.0" y="0.0" width="20" height="25"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="20" id="rUh-qD-rHn"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2012 - The Dark Knight Rises" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Xf-qu-T5O">
+                                                <rect key="frame" x="30" y="5.5" width="165" height="14.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="hZb-w4-bfg"/>
+                                </constraints>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.68000000000000005" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zP1-dp-jV3">
+                                <rect key="frame" x="24" y="389" width="366" height="394"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Christopher Nolan’s award-winning “The Dark Knight Trilogy” includes BATMAN BEGINS, THE DARK KNIGHT and THE DARK KNIGHT RISES. BATMAN BEGINS explores the origins of the Batman legend and the Dark Knight’s emergence as a force for good. 
+
+In THE DARK KNIGHT, Batman sets out to dismantle the remaining criminal organizations that plague Gotham. However, he soon finds himself prey to a reign of chaos unleashed by a rising criminal mastermind known as The Joker. In THE DARK KNIGHT RISES, Batman has vanished into the night, turning from hero to fugitive after assuming the blame for the death of D.A. Harvey Dent. However, with the emergence of Bane, a masked terrorist whose has devised a ruthless plan for Gotham, Bruce is forced out of his self-imposed exile. But even if he dons the cape and cowl again, Batman may be no match for Bane.</string>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zP1-dp-jV3" firstAttribute="leading" secondItem="lsh-ya-ju2" secondAttribute="leading" id="8OL-Bi-o1m"/>
+                            <constraint firstItem="JkM-KS-9Em" firstAttribute="top" secondItem="lsh-ya-ju2" secondAttribute="bottom" constant="25" id="K0q-9s-f5c"/>
+                            <constraint firstItem="JkM-KS-9Em" firstAttribute="leading" secondItem="lsh-ya-ju2" secondAttribute="leading" id="PCd-8j-8Hi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lsh-ya-ju2" secondAttribute="trailing" constant="24" id="Pu2-wa-szd"/>
+                            <constraint firstItem="zP1-dp-jV3" firstAttribute="top" secondItem="JkM-KS-9Em" secondAttribute="bottom" constant="50" id="Wa7-Cz-RND"/>
+                            <constraint firstItem="lsh-ya-ju2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="lJa-kg-tHo"/>
+                            <constraint firstItem="lsh-ya-ju2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="snd-cW-l11"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zP1-dp-jV3" secondAttribute="bottom" constant="30" id="u1W-1B-wJG"/>
+                            <constraint firstItem="zP1-dp-jV3" firstAttribute="trailing" secondItem="lsh-ya-ju2" secondAttribute="trailing" id="wM2-zC-Z1G"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="The Dark Knight" image="icon_batman" id="pJu-m0-N3f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1734.7826086956522" y="72.991071428571431"/>
+        </scene>
+        <!--Director-->
+        <scene sceneID="q7N-Bv-YY1">
+            <objects>
+                <viewController id="aE7-z0-0Ox" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6sv-3N-Ju7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="nolan-hates-netflix" translatesAutoresizingMaskIntoConstraints="NO" id="ONH-0q-5em">
+                                <rect key="frame" x="-510" y="0.0" width="1434" height="896"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ONH-0q-5em" secondAttribute="height" multiplier="717:448" id="NVD-I2-fJS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Christopher Nolan" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYr-zn-wqj">
+                                <rect key="frame" x="24" y="134" width="366" height="105.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="44"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="6B8-fb-gbd">
+                                <rect key="frame" x="24" y="264.5" width="366" height="74"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gjC-2I-2Qp">
+                                        <rect key="frame" x="0.0" y="0.0" width="101.5" height="20"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.87" contentMode="scaleAspectFit" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Etz-U1-NWF">
+                                                <rect key="frame" x="0.0" y="1" width="21" height="17.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30 July 1970" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hy-Oj-s8m">
+                                                <rect key="frame" x="29" y="0.0" width="72.5" height="20"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ZGx-Kw-dod">
+                                        <rect key="frame" x="0.0" y="27" width="195" height="20"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="scaleAspectFit" image="flag.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cxZ-xG-eGt">
+                                                <rect key="frame" x="0.0" y="0.5" width="19.5" height="18.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="United KingdomUnited States" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mli-Z6-fer">
+                                                <rect key="frame" x="27.5" y="0.0" width="167.5" height="20"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Sbx-NL-oq0">
+                                        <rect key="frame" x="0.0" y="54" width="84.5" height="20"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="scaleAspectFit" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="RCK-bg-RC5">
+                                                <rect key="frame" x="0.0" y="1.5" width="18" height="17"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filmmaker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ue-yu-Jyq">
+                                                <rect key="frame" x="26" y="0.0" width="58.5" height="20"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.68000000715255737" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjp-RY-lKz">
+                                <rect key="frame" x="24" y="388.5" width="366" height="394.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Christopher Edward Nolan CBE is a British-American film director, producer, and screenwriter. His directorial efforts have grossed more than US$5 billion worldwide, garnered 36 Oscar nominations and 11 wins.
+
+Born and raised in London, Nolan developed an interest in filmmaking from a young age. After studying English literature at University College London, he made his feature debut with Following (1998). Nolan gained international recognition with his second film, Memento (2000), for which he was nominated for the Academy Award for Best Original Screenplay. He transitioned from independent to studio filmmaking with Insomnia (2002), and found further critical and commercial success with The Dark Knight Trilogy (2005–2012), The Prestige (2006), and Inception (2010), which received eight Oscar nominations, including for Best Picture and Best Original Screenplay. This was followed by Interstellar (2014), Dunkirk (2017), and Tenet (2020). He earned Academy Award nominations for Best Picture and Best Director for his work on Dunkirk.
+
+Nolan's films are typically rooted in epistemological and metaphysical themes, exploring human morality, the construction of time, and the malleable nature of memory and personal identity. His work is permeated by mathematically inspired images and concepts, unconventional narrative structures, practical special effects, experimental soundscapes, large-format film photography, and materialistic perspectives. He has co-written several of his films with his brother Jonathan, and runs the production company Syncopy Inc. with his wife Emma Thomas.
+
+Nolan has received many awards and honours. Time named him one of the 100 most influential people in the world in 2015, and in 2019, he was appointed Commander of the Order of the British Empire for his services to film.</string>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uhj-iK-krH"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uhj-iK-krH" firstAttribute="trailing" secondItem="hYr-zn-wqj" secondAttribute="trailing" constant="24" id="3Xc-zi-MQg"/>
+                            <constraint firstItem="fjp-RY-lKz" firstAttribute="top" secondItem="6B8-fb-gbd" secondAttribute="bottom" constant="50" id="6tJ-Nu-tLl"/>
+                            <constraint firstItem="ONH-0q-5em" firstAttribute="centerX" secondItem="6sv-3N-Ju7" secondAttribute="centerX" id="K7U-Oj-5af"/>
+                            <constraint firstAttribute="bottom" secondItem="ONH-0q-5em" secondAttribute="bottom" id="L7s-FG-Kpa"/>
+                            <constraint firstItem="fjp-RY-lKz" firstAttribute="leading" secondItem="hYr-zn-wqj" secondAttribute="leading" id="RC4-I2-8hH"/>
+                            <constraint firstItem="uhj-iK-krH" firstAttribute="bottom" secondItem="fjp-RY-lKz" secondAttribute="bottom" constant="30" id="XyR-yM-dWr"/>
+                            <constraint firstItem="hYr-zn-wqj" firstAttribute="top" secondItem="uhj-iK-krH" secondAttribute="top" constant="90" id="b9O-59-bDi"/>
+                            <constraint firstItem="6B8-fb-gbd" firstAttribute="leading" secondItem="hYr-zn-wqj" secondAttribute="leading" id="cRU-zu-TIM"/>
+                            <constraint firstItem="hYr-zn-wqj" firstAttribute="leading" secondItem="uhj-iK-krH" secondAttribute="leading" constant="24" id="hAt-pc-eL3"/>
+                            <constraint firstItem="ONH-0q-5em" firstAttribute="width" secondItem="ONH-0q-5em" secondAttribute="height" multiplier="717:448" id="koC-u2-fP0"/>
+                            <constraint firstItem="6B8-fb-gbd" firstAttribute="trailing" secondItem="hYr-zn-wqj" secondAttribute="trailing" id="ogh-Fu-B0B"/>
+                            <constraint firstItem="fjp-RY-lKz" firstAttribute="trailing" secondItem="hYr-zn-wqj" secondAttribute="trailing" id="raW-mM-QNH"/>
+                            <constraint firstItem="6B8-fb-gbd" firstAttribute="top" secondItem="hYr-zn-wqj" secondAttribute="bottom" constant="25" id="vx9-h9-bId"/>
+                            <constraint firstItem="ONH-0q-5em" firstAttribute="top" secondItem="6sv-3N-Ju7" secondAttribute="top" id="xYG-JU-3rX"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Director" image="icon_director" id="Jm1-e4-SaC"/>
+                    <navigationItem key="navigationItem" id="y3N-1J-ymq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="alh-LM-RYL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2689.8550724637685" y="72.991071428571431"/>
+        </scene>
+        <!--The Dark Knight Trilogy-->
+        <scene sceneID="b6S-dU-d01">
+            <objects>
+                <tableViewController id="u2b-vc-jIL" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jJw-df-ilc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="L8l-Mp-t9m">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" rowHeight="320" id="09U-Ea-RbS">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="320"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="09U-Ea-RbS" id="a7w-cy-oGl">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_thumnail_2005" translatesAutoresizingMaskIntoConstraints="NO" id="UCa-xt-tnE">
+                                                    <rect key="frame" x="0.0" y="6" width="414" height="308"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="UCa-xt-tnE" secondAttribute="height" multiplier="35:26" id="9fa-ov-wZh"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="UCa-xt-tnE" secondAttribute="trailing" id="Kbi-Yy-h9e"/>
+                                                <constraint firstItem="UCa-xt-tnE" firstAttribute="centerY" secondItem="a7w-cy-oGl" secondAttribute="centerY" id="N8a-4q-8hX"/>
+                                                <constraint firstItem="UCa-xt-tnE" firstAttribute="leading" secondItem="a7w-cy-oGl" secondAttribute="leading" id="Qnt-Ro-b6J"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="Zsv-Nx-DTa" kind="show" id="ZCC-Ha-QN5"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" rowHeight="320" id="3F1-gs-Yn5">
+                                        <rect key="frame" x="0.0" y="344.5" width="414" height="320"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3F1-gs-Yn5" id="ill-yW-Et8">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_thumnail_2008" translatesAutoresizingMaskIntoConstraints="NO" id="h8t-PN-3Hw">
+                                                    <rect key="frame" x="0.0" y="6" width="414" height="308"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="h8t-PN-3Hw" secondAttribute="height" multiplier="35:26" id="TkQ-FS-sVu"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="h8t-PN-3Hw" firstAttribute="centerY" secondItem="ill-yW-Et8" secondAttribute="centerY" id="6Sf-ME-rZT"/>
+                                                <constraint firstItem="h8t-PN-3Hw" firstAttribute="leading" secondItem="ill-yW-Et8" secondAttribute="leading" id="AKf-Xu-tYc"/>
+                                                <constraint firstAttribute="trailing" secondItem="h8t-PN-3Hw" secondAttribute="trailing" id="P25-uG-0Jx"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="HbD-aN-pMD" kind="show" id="F4D-bY-E5o"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" rowHeight="320" id="UlN-IW-4aB">
+                                        <rect key="frame" x="0.0" y="664.5" width="414" height="320"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UlN-IW-4aB" id="nZP-Lf-6s2">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_thumnail_2012" translatesAutoresizingMaskIntoConstraints="NO" id="fPQ-h3-hSo">
+                                                    <rect key="frame" x="0.0" y="6" width="414" height="308"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="fPQ-h3-hSo" secondAttribute="height" multiplier="35:26" id="Cks-w3-KQJ"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="fPQ-h3-hSo" firstAttribute="centerY" secondItem="nZP-Lf-6s2" secondAttribute="centerY" id="dt6-eb-8R8"/>
+                                                <constraint firstItem="fPQ-h3-hSo" firstAttribute="leading" secondItem="nZP-Lf-6s2" secondAttribute="leading" id="ksF-Xu-kmT"/>
+                                                <constraint firstAttribute="trailing" secondItem="fPQ-h3-hSo" secondAttribute="trailing" id="qQ7-gv-Pbz"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="o7e-Zu-IHh" kind="show" id="aML-PF-CMH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="u2b-vc-jIL" id="vgy-9w-4O8"/>
+                            <outlet property="delegate" destination="u2b-vc-jIL" id="xog-3F-BWT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="The Dark Knight Trilogy" id="UaG-ZX-Bqs"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6RY-gS-rLv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1734.7826086956522" y="789.50892857142856"/>
+        </scene>
+        <!--Batman Begins-->
+        <scene sceneID="sWX-Eu-mvO">
+            <objects>
+                <viewController id="Zsv-Nx-DTa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="chH-lw-iBt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="g3b-nX-SBP">
+                                <rect key="frame" x="24" y="356.5" width="366" height="133.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.87" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Batman Begins" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J09-GB-BMV">
+                                        <rect key="frame" x="0.0" y="0.0" width="129.5" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.87" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2005" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37a-Nk-X1e">
+                                        <rect key="frame" x="0.0" y="34.5" width="38.5" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.87" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" indicatorStyle="white" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3aS-va-Pfb">
+                                        <rect key="frame" x="0.0" y="67" width="366" height="66.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">In the wake of his parents' murder, disillusioned industrial heir Bruce Wayne travels the world seeking the means to fight injustice.</string>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_movie_2005" translatesAutoresizingMaskIntoConstraints="NO" id="taA-gN-BMc">
+                                <rect key="frame" x="0.0" y="96" width="414" height="244.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="taA-gN-BMc" secondAttribute="height" multiplier="61:36" id="D5K-BW-BLy"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_batman" translatesAutoresizingMaskIntoConstraints="NO" id="6r7-ah-fry">
+                                <rect key="frame" x="194.5" y="508" width="25" height="25"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="fvs-B1-Tu6">
+                                <rect key="frame" x="24" y="551" width="366" height="114"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="105" translatesAutoresizingMaskIntoConstraints="NO" id="uWf-O4-N1P">
+                                        <rect key="frame" x="0.0" y="0.0" width="366" height="22"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bV-Rj-fDG">
+                                                <rect key="frame" x="0.0" y="0.0" width="242" height="22"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="scaleAspectFit" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jsx-2i-Ema">
+                                                <rect key="frame" x="347" y="2" width="19" height="18.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="jsx-2i-Ema" secondAttribute="height" multiplier="6:7" id="Xr9-It-2fc"/>
+                                                    <constraint firstAttribute="height" constant="22" id="x08-jx-bBI"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="105" translatesAutoresizingMaskIntoConstraints="NO" id="1Cp-kr-w8F">
+                                        <rect key="frame" x="0.0" y="46" width="366" height="22"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJy-3a-O6a">
+                                                <rect key="frame" x="0.0" y="0.0" width="242" height="22"/>
+                                                <string key="text">Cast and crew
+</string>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="scaleAspectFit" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="HoQ-qI-ueu">
+                                                <rect key="frame" x="347" y="2" width="19" height="18.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="HoQ-qI-ueu" secondAttribute="height" multiplier="6:7" id="779-Be-csI"/>
+                                                    <constraint firstAttribute="height" constant="22" id="cic-cW-Vj0"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="105" translatesAutoresizingMaskIntoConstraints="NO" id="gEi-Hw-faq">
+                                        <rect key="frame" x="0.0" y="92" width="366" height="22"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Additional information" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7B-9f-KdS">
+                                                <rect key="frame" x="0.0" y="0.0" width="242" height="22"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="scaleAspectFit" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gye-Jr-6Z3">
+                                                <rect key="frame" x="347" y="2" width="19" height="18.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="22" id="6wk-4Q-fkh"/>
+                                                    <constraint firstAttribute="width" secondItem="gye-Jr-6Z3" secondAttribute="height" multiplier="6:7" id="YzX-HY-LvJ"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Z0v-GF-vf1">
+                                <rect key="frame" x="24" y="551" width="366" height="114"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ufc-Di-oCB">
+                                        <rect key="frame" x="0.0" y="0.0" width="366" height="38"/>
+                                        <connections>
+                                            <segue destination="NgT-r1-QpA" kind="show" id="cQw-lU-DPt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4G2-7C-Dt3">
+                                        <rect key="frame" x="0.0" y="38" width="366" height="38"/>
+                                        <connections>
+                                            <segue destination="I9J-4d-uA3" kind="show" id="PH4-0G-gIf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7c-5g-d3t">
+                                        <rect key="frame" x="0.0" y="76" width="366" height="38"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="B9Q-UK-DFW"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fvs-B1-Tu6" firstAttribute="trailing" secondItem="g3b-nX-SBP" secondAttribute="trailing" id="00z-5t-XyY"/>
+                            <constraint firstItem="B9Q-UK-DFW" firstAttribute="trailing" secondItem="g3b-nX-SBP" secondAttribute="trailing" constant="24" id="3o8-eG-fXc"/>
+                            <constraint firstItem="6r7-ah-fry" firstAttribute="centerX" secondItem="chH-lw-iBt" secondAttribute="centerX" id="4Z4-eo-TUy"/>
+                            <constraint firstItem="B9Q-UK-DFW" firstAttribute="trailing" secondItem="taA-gN-BMc" secondAttribute="trailing" id="5aL-EV-XiM"/>
+                            <constraint firstItem="Z0v-GF-vf1" firstAttribute="top" secondItem="fvs-B1-Tu6" secondAttribute="top" id="768-PI-Nbk"/>
+                            <constraint firstItem="Z0v-GF-vf1" firstAttribute="trailing" secondItem="fvs-B1-Tu6" secondAttribute="trailing" id="8Bh-W3-0kV"/>
+                            <constraint firstItem="taA-gN-BMc" firstAttribute="leading" secondItem="B9Q-UK-DFW" secondAttribute="leading" id="B4I-hE-SdA"/>
+                            <constraint firstItem="g3b-nX-SBP" firstAttribute="top" secondItem="taA-gN-BMc" secondAttribute="bottom" constant="16" id="D1M-ph-3hS"/>
+                            <constraint firstItem="Z0v-GF-vf1" firstAttribute="leading" secondItem="fvs-B1-Tu6" secondAttribute="leading" id="Mh5-td-Vag"/>
+                            <constraint firstItem="fvs-B1-Tu6" firstAttribute="leading" secondItem="g3b-nX-SBP" secondAttribute="leading" id="Ttp-Gx-gDI"/>
+                            <constraint firstItem="Z0v-GF-vf1" firstAttribute="bottom" secondItem="fvs-B1-Tu6" secondAttribute="bottom" id="WNy-hg-Xui"/>
+                            <constraint firstItem="Z0v-GF-vf1" firstAttribute="leading" secondItem="fvs-B1-Tu6" secondAttribute="leading" id="WTl-KD-y1F"/>
+                            <constraint firstItem="Z0v-GF-vf1" firstAttribute="trailing" secondItem="fvs-B1-Tu6" secondAttribute="trailing" id="ZtX-eA-9oH"/>
+                            <constraint firstItem="Z0v-GF-vf1" firstAttribute="bottom" secondItem="fvs-B1-Tu6" secondAttribute="bottom" id="cx0-s3-83l"/>
+                            <constraint firstItem="6r7-ah-fry" firstAttribute="top" secondItem="g3b-nX-SBP" secondAttribute="bottom" constant="18" id="dWi-iD-RNu"/>
+                            <constraint firstItem="fvs-B1-Tu6" firstAttribute="top" secondItem="6r7-ah-fry" secondAttribute="bottom" constant="18" id="kjw-ta-195"/>
+                            <constraint firstItem="taA-gN-BMc" firstAttribute="top" secondItem="B9Q-UK-DFW" secondAttribute="top" constant="8" id="rRQ-cf-giV"/>
+                            <constraint firstItem="g3b-nX-SBP" firstAttribute="leading" secondItem="B9Q-UK-DFW" secondAttribute="leading" constant="24" id="tI6-ga-XcP"/>
+                            <constraint firstItem="Z0v-GF-vf1" firstAttribute="top" secondItem="fvs-B1-Tu6" secondAttribute="top" id="uKF-uu-SBb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Batman Begins" id="8O6-MM-vWW">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="3nz-md-EbA"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iye-t0-SWS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2689.8550724637685" y="789.50892857142856"/>
+        </scene>
+        <!--Description-->
+        <scene sceneID="HCE-CG-4il">
+            <objects>
+                <viewController definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalPresentationStyle="overCurrentContext" id="NgT-r1-QpA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qk8-JE-xEb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.62" contentMode="scaleAspectFit" image="img_poster_batmanbegins_" translatesAutoresizingMaskIntoConstraints="NO" id="QPJ-IC-v2G">
+                                <rect key="frame" x="-45" y="0.0" width="504" height="896"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="QPJ-IC-v2G" secondAttribute="height" multiplier="9:16" id="Klb-4O-XrH"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Batman Begins" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ws-2r-bqk">
+                                <rect key="frame" x="24" y="178" width="366" height="53"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="44"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.87" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbc-Vv-aRE">
+                                <rect key="frame" x="24" y="304" width="366" height="479"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">As a young boy, Bruce Wayne watched in horror as his millionaire parents were slain in front of him--a trauma that leads him to become obsessed with revenge. But the opportunity to avenge his parents' deaths is cruelly taken away from him by fate. Fleeing to the East, where he seeks counsel with the dangerous but honorable ninja cult leader known as Ra's Al-Ghul, Bruce returns to his now decaying Gotham City, which is overrun by organized crime and other dangerous individuals manipulating the system. Meanwhile, Bruce is slowly being swindled out of Wayne Industries, the company he inherited. The discovery of a cave under his mansion, along with a prototype armored suit, leads him to assume a new persona, one which will strike fear into the hearts of men who do wrong; he becomes Batman!!!</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_batman" translatesAutoresizingMaskIntoConstraints="NO" id="OMj-ff-veO">
+                                <rect key="frame" x="194.5" y="255" width="25" height="25"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NJd-Z0-cxj"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NJd-Z0-cxj" firstAttribute="trailing" secondItem="3ws-2r-bqk" secondAttribute="trailing" constant="24" id="0SO-xn-Aoo"/>
+                            <constraint firstItem="QPJ-IC-v2G" firstAttribute="top" secondItem="Qk8-JE-xEb" secondAttribute="top" id="2rV-S9-ejh"/>
+                            <constraint firstItem="3ws-2r-bqk" firstAttribute="leading" secondItem="NJd-Z0-cxj" secondAttribute="leading" constant="24" id="DJl-HQ-FUW"/>
+                            <constraint firstItem="NJd-Z0-cxj" firstAttribute="bottom" secondItem="tbc-Vv-aRE" secondAttribute="bottom" constant="30" id="FCo-Ta-IJj"/>
+                            <constraint firstItem="OMj-ff-veO" firstAttribute="centerX" secondItem="Qk8-JE-xEb" secondAttribute="centerX" id="Lb4-Yl-dwW"/>
+                            <constraint firstItem="3ws-2r-bqk" firstAttribute="top" secondItem="NJd-Z0-cxj" secondAttribute="top" constant="90" id="YNM-0g-CK6"/>
+                            <constraint firstItem="tbc-Vv-aRE" firstAttribute="leading" secondItem="3ws-2r-bqk" secondAttribute="leading" id="hNK-e6-jmI"/>
+                            <constraint firstItem="OMj-ff-veO" firstAttribute="top" secondItem="3ws-2r-bqk" secondAttribute="bottom" constant="24" id="kgt-Bu-F7Q"/>
+                            <constraint firstItem="NJd-Z0-cxj" firstAttribute="trailing" secondItem="tbc-Vv-aRE" secondAttribute="trailing" constant="24" id="n6Z-Ao-rux"/>
+                            <constraint firstAttribute="bottom" secondItem="QPJ-IC-v2G" secondAttribute="bottom" id="pTc-0N-6jD"/>
+                            <constraint firstItem="tbc-Vv-aRE" firstAttribute="top" secondItem="OMj-ff-veO" secondAttribute="bottom" constant="24" id="wer-91-EQd"/>
+                            <constraint firstItem="QPJ-IC-v2G" firstAttribute="centerX" secondItem="Qk8-JE-xEb" secondAttribute="centerX" id="z7t-2R-Ldn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Description" id="eSK-Mh-iSK"/>
+                    <value key="contentSizeForViewInPopover" type="size" width="414" height="300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uax-VX-8Jl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3473.913043478261" y="789.50892857142856"/>
+        </scene>
+        <!--Cast and crew-->
+        <scene sceneID="X1F-4x-oeS">
+            <objects>
+                <tableViewController id="I9J-4d-uA3" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="IzY-6C-i7n" customClass="CastUIView" customModule="The_Dark_Knight" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="C83-vy-swz">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="189" id="62i-wi-yq7">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="189"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="62i-wi-yq7" id="dRB-fa-9bm">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="189"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="VQf-Om-dK9">
+                                                    <rect key="frame" x="20" y="19" width="376" height="151"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="dhb-p4-nLb">
+                                                            <rect key="frame" x="0.0" y="0.0" width="120" height="151"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cast_Christian Bale" translatesAutoresizingMaskIntoConstraints="NO" id="LBH-Sj-d16">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="LBH-Sj-d16" secondAttribute="height" multiplier="1:1" id="NQR-l7-N2g"/>
+                                                                        <constraint firstAttribute="width" constant="120" id="amA-zT-qF2"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Christian Bale" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wk-Sz-SD5">
+                                                                    <rect key="frame" x="0.0" y="134" width="120" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="EqX-16-2Wy">
+                                                            <rect key="frame" x="128" y="0.0" width="120" height="151"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cast_Cillian Murphy" translatesAutoresizingMaskIntoConstraints="NO" id="9Q4-Gp-wGd">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="120" id="1uz-kv-GQh"/>
+                                                                        <constraint firstAttribute="width" secondItem="9Q4-Gp-wGd" secondAttribute="height" multiplier="1:1" id="zb2-BW-2bJ"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cillian Murphy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sW-he-WTT">
+                                                                    <rect key="frame" x="0.0" y="134" width="120" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="XjB-5p-yYM">
+                                                            <rect key="frame" x="256" y="0.0" width="120" height="151"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cast_Gary Oldman" translatesAutoresizingMaskIntoConstraints="NO" id="RSJ-Ye-wKA">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="RSJ-Ye-wKA" secondAttribute="height" multiplier="1:1" id="HeT-0o-pBz"/>
+                                                                        <constraint firstAttribute="width" constant="120" id="pWM-Rg-6Xu"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gary Oldman" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="seR-1X-JbY">
+                                                                    <rect key="frame" x="0.0" y="134" width="120" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="VQf-Om-dK9" secondAttribute="trailing" constant="18" id="FWj-lJ-LbQ"/>
+                                                <constraint firstItem="VQf-Om-dK9" firstAttribute="centerY" secondItem="dRB-fa-9bm" secondAttribute="centerY" id="d3q-vf-eoo"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="189" id="gkz-HU-Y36">
+                                        <rect key="frame" x="0.0" y="213.5" width="414" height="189"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gkz-HU-Y36" id="wCx-z0-1oO">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="189"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jFw-XD-5bA">
+                                                    <rect key="frame" x="20" y="19" width="376" height="151"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="pZY-ce-v1X">
+                                                            <rect key="frame" x="0.0" y="0.0" width="120" height="151"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cast_Katie Holmes" translatesAutoresizingMaskIntoConstraints="NO" id="yeO-i7-TMB">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="yeO-i7-TMB" secondAttribute="height" multiplier="1:1" id="LWV-zg-h47"/>
+                                                                        <constraint firstAttribute="width" constant="120" id="SPq-41-VpB"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Katie Holmes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ObJ-yC-bGj">
+                                                                    <rect key="frame" x="0.0" y="134" width="120" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="cUk-nS-erU">
+                                                            <rect key="frame" x="128" y="0.0" width="120" height="151"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cast_Ken Watanabe" translatesAutoresizingMaskIntoConstraints="NO" id="JbV-ni-3KY">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="120" id="XgU-0r-Uta"/>
+                                                                        <constraint firstAttribute="width" secondItem="JbV-ni-3KY" secondAttribute="height" multiplier="1:1" id="qda-UE-VQb"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ken Watanabe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxf-Qw-EQo">
+                                                                    <rect key="frame" x="0.0" y="134" width="120" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="tYQ-TH-Rwu">
+                                                            <rect key="frame" x="256" y="0.0" width="120" height="151"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cast_Liam Neeson" translatesAutoresizingMaskIntoConstraints="NO" id="2Wt-IJ-8uj">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="120" id="5bw-5f-6Ec"/>
+                                                                        <constraint firstAttribute="width" secondItem="2Wt-IJ-8uj" secondAttribute="height" multiplier="1:1" id="Zv9-oy-cNa"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Liam Neeson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pt-7i-w6D">
+                                                                    <rect key="frame" x="0.0" y="134" width="120" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="jFw-XD-5bA" secondAttribute="trailing" constant="18" id="8DQ-F3-msn"/>
+                                                <constraint firstItem="jFw-XD-5bA" firstAttribute="centerY" secondItem="wCx-z0-1oO" secondAttribute="centerY" id="S3v-rE-yxr"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="189" id="fut-9z-5HL">
+                                        <rect key="frame" x="0.0" y="402.5" width="414" height="189"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fut-9z-5HL" id="TMF-a0-T9C">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="189"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sjI-XN-AaR">
+                                                    <rect key="frame" x="20" y="19" width="376" height="151"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="GGz-CV-pVH">
+                                                            <rect key="frame" x="0.0" y="0.0" width="120" height="151"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cast_Linus Roache" translatesAutoresizingMaskIntoConstraints="NO" id="5za-Wy-3My">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="5za-Wy-3My" secondAttribute="height" multiplier="1:1" id="hn0-Ac-uwp"/>
+                                                                        <constraint firstAttribute="width" constant="120" id="rd5-LW-sd8"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Linus Roache" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X3P-xr-u4L">
+                                                                    <rect key="frame" x="0.0" y="134" width="120" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="8jc-0k-jq8">
+                                                            <rect key="frame" x="128" y="0.0" width="120" height="151"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cast_Mark Boone Junior" translatesAutoresizingMaskIntoConstraints="NO" id="cJI-G9-Yhz">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="120" id="GDq-w2-gxT"/>
+                                                                        <constraint firstAttribute="width" secondItem="cJI-G9-Yhz" secondAttribute="height" multiplier="1:1" id="Zbm-yI-vw1"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mark Boone Junior" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZj-lr-fJY">
+                                                                    <rect key="frame" x="0.0" y="134" width="120" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="i8Z-vC-621">
+                                                            <rect key="frame" x="256" y="0.0" width="120" height="151"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cast_Michael Caine" translatesAutoresizingMaskIntoConstraints="NO" id="E6m-VU-AMB">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="E6m-VU-AMB" secondAttribute="height" multiplier="1:1" id="y1S-RO-qsO"/>
+                                                                        <constraint firstAttribute="width" constant="120" id="ypT-6A-Mtc"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Michael Caine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c78-P5-Xfo">
+                                                                    <rect key="frame" x="0.0" y="134" width="120" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="sjI-XN-AaR" secondAttribute="trailing" constant="18" id="cOY-x5-usf"/>
+                                                <constraint firstItem="sjI-XN-AaR" firstAttribute="centerY" secondItem="TMF-a0-T9C" secondAttribute="centerY" id="uEX-rd-j4w"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="189" id="Vig-g8-V6K">
+                                        <rect key="frame" x="0.0" y="591.5" width="414" height="189"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vig-g8-V6K" id="Jqf-NA-kPD">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="189"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="d7l-En-Quz">
+                                                    <rect key="frame" x="20" y="19" width="376" height="151"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="zsc-6w-hWK">
+                                                            <rect key="frame" x="0.0" y="0.0" width="120" height="151"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cast_Morgan Freeman" translatesAutoresizingMaskIntoConstraints="NO" id="TMB-fC-gLl">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="TMB-fC-gLl" secondAttribute="height" multiplier="1:1" id="8gX-Sm-QKR"/>
+                                                                        <constraint firstAttribute="width" constant="120" id="h7k-7b-89P"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Morgan Freeman" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgy-RE-2Ai">
+                                                                    <rect key="frame" x="0.0" y="134" width="120" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="tAJ-xy-mJ5">
+                                                            <rect key="frame" x="128" y="0.0" width="120" height="151"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cast_Rade Serbedzija" translatesAutoresizingMaskIntoConstraints="NO" id="BNo-Y0-MnM">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="120" id="IH8-TI-cep"/>
+                                                                        <constraint firstAttribute="width" secondItem="BNo-Y0-MnM" secondAttribute="height" multiplier="1:1" id="Jqk-yq-3mP"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rade Serbedzija" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6I-a3-QSD">
+                                                                    <rect key="frame" x="0.0" y="134" width="120" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="EXC-pK-qUa">
+                                                            <rect key="frame" x="256" y="0.0" width="120" height="151"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cast_Rutger Hauer" translatesAutoresizingMaskIntoConstraints="NO" id="EYD-HH-HpP">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="120" id="Be9-6d-QRi"/>
+                                                                        <constraint firstAttribute="width" secondItem="EYD-HH-HpP" secondAttribute="height" multiplier="1:1" id="cum-6Z-PNK"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rutger Hauer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Evc-1B-sgn">
+                                                                    <rect key="frame" x="0.0" y="134" width="120" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="d7l-En-Quz" firstAttribute="centerY" secondItem="Jqf-NA-kPD" secondAttribute="centerY" id="9TL-1O-SjC"/>
+                                                <constraint firstAttribute="trailing" secondItem="d7l-En-Quz" secondAttribute="trailing" constant="18" id="Eq5-2a-IEK"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="ImageView" destination="LBH-Sj-d16" id="OkD-Ws-ch9"/>
+                            <outlet property="ImageView10" destination="TMB-fC-gLl" id="vSZ-ZX-NJi"/>
+                            <outlet property="ImageView11" destination="BNo-Y0-MnM" id="bhv-5q-Uyh"/>
+                            <outlet property="ImageView12" destination="EYD-HH-HpP" id="q3y-7k-wA9"/>
+                            <outlet property="ImageView2" destination="9Q4-Gp-wGd" id="B3W-HN-bGd"/>
+                            <outlet property="ImageView3" destination="RSJ-Ye-wKA" id="A4h-0g-olr"/>
+                            <outlet property="ImageView4" destination="yeO-i7-TMB" id="Ec7-yZ-kV0"/>
+                            <outlet property="ImageView5" destination="JbV-ni-3KY" id="0Rl-PV-MEM"/>
+                            <outlet property="ImageView6" destination="2Wt-IJ-8uj" id="lVK-c2-FDQ"/>
+                            <outlet property="ImageView7" destination="5za-Wy-3My" id="BSe-LP-S8E"/>
+                            <outlet property="ImageView8" destination="cJI-G9-Yhz" id="Oex-Bf-wnW"/>
+                            <outlet property="ImageView9" destination="E6m-VU-AMB" id="pGt-oS-jsW"/>
+                            <outlet property="dataSource" destination="I9J-4d-uA3" id="MZT-MX-2tm"/>
+                            <outlet property="delegate" destination="I9J-4d-uA3" id="j1H-vP-wW7"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Cast and crew" id="7hD-7C-QHI"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GI5-7Q-MoA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4288.4057971014499" y="789.50892857142856"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="bnB-g0-orZ">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="SQh-uI-cLE" customClass="TabBarController" customModule="The_Dark_Knight" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="KXN-ox-WEa">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <outlet property="tab" destination="KXN-ox-WEa" id="IgL-ll-dVg"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="g8v-11-t98"/>
+                        <segue destination="aE7-z0-0Ox" kind="relationship" relationship="viewControllers" id="9gl-3z-Bgy"/>
+                        <segue destination="Dgo-Ew-O1a" kind="relationship" relationship="viewControllers" id="e97-S6-I0i"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sd4-BA-qbT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="190" y="73"/>
+        </scene>
+        <!--Trilogy-->
+        <scene sceneID="r86-by-O3w">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dgo-Ew-O1a" customClass="NavigationController" customModule="The_Dark_Knight" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Trilogy" image="icon_movies" id="Lp3-mL-u62"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" alpha="0.0" contentMode="scaleToFill" id="T9C-wR-L85">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <outlet property="navigation" destination="T9C-wR-L85" id="3dT-D0-Ypc"/>
+                        <segue destination="u2b-vc-jIL" kind="relationship" relationship="rootViewController" id="edz-Jg-LOf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9gA-Gs-uxy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <barButtonItem image="img_thumnail_2005" id="42y-Ww-iMo"/>
+            </objects>
+            <point key="canvasLocation" x="899" y="790"/>
+        </scene>
+        <!--The Dark Knight-->
+        <scene sceneID="cTd-DZ-Mvj">
+            <objects>
+                <viewController id="HbD-aN-pMD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AWm-3t-exc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_movie_2008" translatesAutoresizingMaskIntoConstraints="NO" id="wtD-ma-a7g">
+                                <rect key="frame" x="0.0" y="96" width="414" height="244.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wtD-ma-a7g" secondAttribute="height" multiplier="61:36" id="rpz-fh-yIo"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="8df-q0-GIe">
+                                <rect key="frame" x="24" y="356.5" width="366" height="150"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Dark Knight" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTR-QC-liW">
+                                        <rect key="frame" x="0.0" y="0.0" width="138.5" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2008" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpa-ro-Sir">
+                                        <rect key="frame" x="0.0" y="34.5" width="39" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.87000000476837158" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" indicatorStyle="white" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROn-9S-oC6">
+                                        <rect key="frame" x="0.0" y="67" width="366" height="83"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">The Dark Knight reunites Christian Bale with director Christopher Nolan and takes Batman across the world in his quest to fight a growing criminal threat known as The Joker.</string>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_batman" translatesAutoresizingMaskIntoConstraints="NO" id="N52-0W-Svw">
+                                <rect key="frame" x="194.5" y="524.5" width="25" height="25"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="JxD-Sj-R5E">
+                                <rect key="frame" x="24" y="567.5" width="366" height="114"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="105" translatesAutoresizingMaskIntoConstraints="NO" id="iNu-4R-eVv">
+                                        <rect key="frame" x="0.0" y="0.0" width="366" height="22"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eaB-6u-mqu">
+                                                <rect key="frame" x="0.0" y="0.0" width="242" height="22"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="scaleAspectFit" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sTq-8B-FMr">
+                                                <rect key="frame" x="347" y="2" width="19" height="18.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="22" id="lJp-Xk-pSG"/>
+                                                    <constraint firstAttribute="width" secondItem="sTq-8B-FMr" secondAttribute="height" multiplier="6:7" id="oAM-89-V6I"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="105" translatesAutoresizingMaskIntoConstraints="NO" id="al5-IS-vco">
+                                        <rect key="frame" x="0.0" y="46" width="366" height="22"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMi-UH-30j">
+                                                <rect key="frame" x="0.0" y="0.0" width="242" height="22"/>
+                                                <string key="text">Cast and crew
+
+</string>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="scaleAspectFit" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sj9-OO-0xq">
+                                                <rect key="frame" x="347" y="2" width="19" height="18.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="22" id="S3O-JC-mbS"/>
+                                                    <constraint firstAttribute="width" secondItem="sj9-OO-0xq" secondAttribute="height" multiplier="6:7" id="UW5-a7-NcK"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="105" translatesAutoresizingMaskIntoConstraints="NO" id="z02-j8-CS3">
+                                        <rect key="frame" x="0.0" y="92" width="366" height="22"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Additional information" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xa2-8w-Kky">
+                                                <rect key="frame" x="0.0" y="0.0" width="242" height="22"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="scaleAspectFit" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gOk-Cc-Bzd">
+                                                <rect key="frame" x="347" y="2" width="19" height="18.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="gOk-Cc-Bzd" secondAttribute="height" multiplier="6:7" id="92i-E8-Bac"/>
+                                                    <constraint firstAttribute="height" constant="22" id="wdq-7G-JKI"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7UL-sC-5E7"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wtD-ma-a7g" firstAttribute="leading" secondItem="7UL-sC-5E7" secondAttribute="leading" id="1Mc-YC-gUL"/>
+                            <constraint firstItem="8df-q0-GIe" firstAttribute="top" secondItem="wtD-ma-a7g" secondAttribute="bottom" constant="16" id="1Rg-lo-Lg0"/>
+                            <constraint firstItem="JxD-Sj-R5E" firstAttribute="top" secondItem="N52-0W-Svw" secondAttribute="bottom" constant="18" id="4Th-1H-dxL"/>
+                            <constraint firstItem="JxD-Sj-R5E" firstAttribute="leading" secondItem="8df-q0-GIe" secondAttribute="leading" id="802-2A-Dlh"/>
+                            <constraint firstItem="7UL-sC-5E7" firstAttribute="trailing" secondItem="8df-q0-GIe" secondAttribute="trailing" constant="24" id="89S-FI-riL"/>
+                            <constraint firstItem="N52-0W-Svw" firstAttribute="top" secondItem="8df-q0-GIe" secondAttribute="bottom" constant="18" id="ADU-F0-xcW"/>
+                            <constraint firstItem="8df-q0-GIe" firstAttribute="leading" secondItem="7UL-sC-5E7" secondAttribute="leading" constant="24" id="CwQ-hq-DFv"/>
+                            <constraint firstItem="7UL-sC-5E7" firstAttribute="trailing" secondItem="wtD-ma-a7g" secondAttribute="trailing" id="N2Y-Wc-klX"/>
+                            <constraint firstItem="wtD-ma-a7g" firstAttribute="top" secondItem="7UL-sC-5E7" secondAttribute="top" constant="8" id="WbI-s0-z6N"/>
+                            <constraint firstItem="N52-0W-Svw" firstAttribute="centerX" secondItem="AWm-3t-exc" secondAttribute="centerX" id="fc0-ke-HbE"/>
+                            <constraint firstItem="JxD-Sj-R5E" firstAttribute="trailing" secondItem="8df-q0-GIe" secondAttribute="trailing" id="wzd-Xh-JYB"/>
+                            <constraint firstItem="JxD-Sj-R5E" firstAttribute="top" secondItem="N52-0W-Svw" secondAttribute="bottom" constant="18" id="xuB-NI-S1s"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="The Dark Knight" id="CP7-OC-2tb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Du-wN-aWO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2690" y="1486"/>
+        </scene>
+        <!--The Dark Knight Rises-->
+        <scene sceneID="0gg-zn-nAg">
+            <objects>
+                <viewController id="o7e-Zu-IHh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6DR-yz-UW0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_movie_2012" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-xQ-1f4">
+                                <rect key="frame" x="0.0" y="96" width="414" height="244.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="KQZ-xQ-1f4" secondAttribute="height" multiplier="61:36" id="inz-mg-6Bv"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="pPe-0A-Amb">
+                                <rect key="frame" x="24" y="356.5" width="366" height="150"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Dark Knight Rises" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJg-v9-fiV">
+                                        <rect key="frame" x="0.0" y="0.0" width="189" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2012" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="599-RL-hxI">
+                                        <rect key="frame" x="0.0" y="34.5" width="36" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.87000000476837158" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" indicatorStyle="white" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpH-Wk-6YE">
+                                        <rect key="frame" x="0.0" y="67" width="366" height="83"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">In this epic conclusion to the Dark Knight trilogy, the emergence of Bane, a masked terrorist with ruthless plans for Gotham, drives Batman out of his self-imposed exile.</string>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.87000000476837158" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_batman" translatesAutoresizingMaskIntoConstraints="NO" id="JSE-F7-JD5">
+                                <rect key="frame" x="194.5" y="524.5" width="25" height="25"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="Qof-bF-WGj">
+                                <rect key="frame" x="24" y="567.5" width="366" height="114"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="105" translatesAutoresizingMaskIntoConstraints="NO" id="RpY-dL-9kq">
+                                        <rect key="frame" x="0.0" y="0.0" width="366" height="22"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igu-aM-aQ9">
+                                                <rect key="frame" x="0.0" y="0.0" width="242" height="22"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="scaleAspectFit" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="fPx-cr-SpY">
+                                                <rect key="frame" x="347" y="2" width="19" height="18.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="fPx-cr-SpY" secondAttribute="height" multiplier="6:7" id="oXS-Pc-3d7"/>
+                                                    <constraint firstAttribute="height" constant="22" id="uvj-Rq-EVA"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="105" translatesAutoresizingMaskIntoConstraints="NO" id="V5l-5C-D2H">
+                                        <rect key="frame" x="0.0" y="46" width="366" height="22"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qFw-BJ-HoD">
+                                                <rect key="frame" x="0.0" y="0.0" width="242" height="22"/>
+                                                <string key="text">Cast and crew
+
+</string>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="scaleAspectFit" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Y9t-P1-Tex">
+                                                <rect key="frame" x="347" y="2" width="19" height="18.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="22" id="BSV-5P-9dt"/>
+                                                    <constraint firstAttribute="width" secondItem="Y9t-P1-Tex" secondAttribute="height" multiplier="6:7" id="Kmm-P9-iNQ"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="105" translatesAutoresizingMaskIntoConstraints="NO" id="rb0-iU-ljh">
+                                        <rect key="frame" x="0.0" y="92" width="366" height="22"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Additional information" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RW-Xp-s6Z">
+                                                <rect key="frame" x="0.0" y="0.0" width="242" height="22"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.62000000476837158" contentMode="scaleAspectFit" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9LH-YR-uwq">
+                                                <rect key="frame" x="347" y="2" width="19" height="18.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="9LH-YR-uwq" secondAttribute="height" multiplier="6:7" id="Adu-p2-umw"/>
+                                                    <constraint firstAttribute="height" constant="22" id="vi9-rw-QMI"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SGf-iO-bY8"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Qof-bF-WGj" firstAttribute="leading" secondItem="pPe-0A-Amb" secondAttribute="leading" id="5L2-69-hnX"/>
+                            <constraint firstItem="KQZ-xQ-1f4" firstAttribute="top" secondItem="SGf-iO-bY8" secondAttribute="top" constant="8" id="6iu-eC-dFt"/>
+                            <constraint firstItem="KQZ-xQ-1f4" firstAttribute="leading" secondItem="SGf-iO-bY8" secondAttribute="leading" id="L8G-fL-AoW"/>
+                            <constraint firstItem="JSE-F7-JD5" firstAttribute="centerX" secondItem="6DR-yz-UW0" secondAttribute="centerX" id="Okx-Sc-G7t"/>
+                            <constraint firstItem="Qof-bF-WGj" firstAttribute="trailing" secondItem="pPe-0A-Amb" secondAttribute="trailing" id="Tu0-dC-0Xj"/>
+                            <constraint firstItem="SGf-iO-bY8" firstAttribute="trailing" secondItem="KQZ-xQ-1f4" secondAttribute="trailing" id="Yso-Tn-mqh"/>
+                            <constraint firstItem="pPe-0A-Amb" firstAttribute="leading" secondItem="SGf-iO-bY8" secondAttribute="leading" constant="24" id="dWA-69-RTu"/>
+                            <constraint firstItem="SGf-iO-bY8" firstAttribute="trailing" secondItem="pPe-0A-Amb" secondAttribute="trailing" constant="24" id="fHC-g1-IB4"/>
+                            <constraint firstItem="JSE-F7-JD5" firstAttribute="top" secondItem="pPe-0A-Amb" secondAttribute="bottom" constant="18" id="h9U-DS-Ztu"/>
+                            <constraint firstItem="pPe-0A-Amb" firstAttribute="top" secondItem="KQZ-xQ-1f4" secondAttribute="bottom" constant="16" id="nEU-wf-b0g"/>
+                            <constraint firstItem="Qof-bF-WGj" firstAttribute="top" secondItem="JSE-F7-JD5" secondAttribute="bottom" constant="18" id="soc-yF-jqc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="The Dark Knight Rises" id="jg5-eg-qFX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hvh-VI-Qfl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2690" y="2145"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="741650" width="1920" height="1080"/>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="chevron.right" catalog="system" width="96" height="128"/>
+        <image name="flag.fill" catalog="system" width="128" height="121"/>
+        <image name="icon_batman" width="25" height="25"/>
+        <image name="icon_director" width="25" height="25"/>
+        <image name="icon_movies" width="25" height="25"/>
+        <image name="img_cast_Christian Bale" width="373" height="373"/>
+        <image name="img_cast_Cillian Murphy" width="373" height="373"/>
+        <image name="img_cast_Gary Oldman" width="373" height="373"/>
+        <image name="img_cast_Katie Holmes" width="373" height="373"/>
+        <image name="img_cast_Ken Watanabe" width="373" height="373"/>
+        <image name="img_cast_Liam Neeson" width="373" height="373"/>
+        <image name="img_cast_Linus Roache" width="373" height="373"/>
+        <image name="img_cast_Mark Boone Junior" width="373" height="373"/>
+        <image name="img_cast_Michael Caine" width="373" height="373"/>
+        <image name="img_cast_Morgan Freeman" width="373" height="373"/>
+        <image name="img_cast_Rade Serbedzija" width="373" height="373"/>
+        <image name="img_cast_Rutger Hauer" width="373" height="373"/>
+        <image name="img_movie_2005" width="1260" height="740"/>
+        <image name="img_movie_2008" width="1260" height="742"/>
+        <image name="img_movie_2012" width="1260" height="742"/>
+        <image name="img_poster_batmanbegins_" width="720" height="1280"/>
+        <image name="img_thumnail_2005" width="960" height="717"/>
+        <image name="img_thumnail_2008" width="3837" height="2878"/>
+        <image name="img_thumnail_2012" width="1453" height="1098"/>
+        <image name="nolan-hates-netflix" width="1935" height="1088"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
