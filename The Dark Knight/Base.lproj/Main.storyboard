@@ -328,22 +328,22 @@ Nolan has received many awards and honours. Time named him one of the 100 most i
         <scene sceneID="b6S-dU-d01">
             <objects>
                 <tableViewController id="u2b-vc-jIL" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jJw-df-ilc">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="jJw-df-ilc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
                             <tableViewSection id="L8l-Mp-t9m">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" rowHeight="320" id="09U-Ea-RbS">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="320"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="320" id="09U-Ea-RbS">
+                                        <rect key="frame" x="20" y="18" width="374" height="320"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="09U-Ea-RbS" id="a7w-cy-oGl">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="320"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_thumnail_2005" translatesAutoresizingMaskIntoConstraints="NO" id="UCa-xt-tnE">
-                                                    <rect key="frame" x="0.0" y="6" width="414" height="308"/>
+                                                    <rect key="frame" x="0.0" y="21" width="374" height="278"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="UCa-xt-tnE" secondAttribute="height" multiplier="35:26" id="9fa-ov-wZh"/>
                                                     </constraints>
@@ -361,14 +361,14 @@ Nolan has received many awards and honours. Time named him one of the 100 most i
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" rowHeight="320" id="3F1-gs-Yn5">
-                                        <rect key="frame" x="0.0" y="344.5" width="414" height="320"/>
+                                        <rect key="frame" x="20" y="338" width="374" height="320"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3F1-gs-Yn5" id="ill-yW-Et8">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="320"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_thumnail_2008" translatesAutoresizingMaskIntoConstraints="NO" id="h8t-PN-3Hw">
-                                                    <rect key="frame" x="0.0" y="6" width="414" height="308"/>
+                                                    <rect key="frame" x="0.0" y="21" width="374" height="278"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="h8t-PN-3Hw" secondAttribute="height" multiplier="35:26" id="TkQ-FS-sVu"/>
                                                     </constraints>
@@ -386,14 +386,14 @@ Nolan has received many awards and honours. Time named him one of the 100 most i
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" rowHeight="320" id="UlN-IW-4aB">
-                                        <rect key="frame" x="0.0" y="664.5" width="414" height="320"/>
+                                        <rect key="frame" x="20" y="658" width="374" height="320"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UlN-IW-4aB" id="nZP-Lf-6s2">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="320"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_thumnail_2012" translatesAutoresizingMaskIntoConstraints="NO" id="fPQ-h3-hSo">
-                                                    <rect key="frame" x="0.0" y="6" width="414" height="308"/>
+                                                    <rect key="frame" x="0.0" y="21" width="374" height="278"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="fPQ-h3-hSo" secondAttribute="height" multiplier="35:26" id="Cks-w3-KQJ"/>
                                                     </constraints>
@@ -650,7 +650,7 @@ Nolan has received many awards and honours. Time named him one of the 100 most i
                         <sections>
                             <tableViewSection id="C83-vy-swz">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="189" id="62i-wi-yq7">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="189" id="62i-wi-yq7">
                                         <rect key="frame" x="0.0" y="24.5" width="414" height="189"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="62i-wi-yq7" id="dRB-fa-9bm">
@@ -724,7 +724,7 @@ Nolan has received many awards and honours. Time named him one of the 100 most i
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="189" id="gkz-HU-Y36">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="189" id="gkz-HU-Y36">
                                         <rect key="frame" x="0.0" y="213.5" width="414" height="189"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gkz-HU-Y36" id="wCx-z0-1oO">
@@ -798,7 +798,7 @@ Nolan has received many awards and honours. Time named him one of the 100 most i
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="189" id="fut-9z-5HL">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="189" id="fut-9z-5HL">
                                         <rect key="frame" x="0.0" y="402.5" width="414" height="189"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fut-9z-5HL" id="TMF-a0-T9C">
@@ -872,7 +872,7 @@ Nolan has received many awards and honours. Time named him one of the 100 most i
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="189" id="Vig-g8-V6K">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="189" id="Vig-g8-V6K">
                                         <rect key="frame" x="0.0" y="591.5" width="414" height="189"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vig-g8-V6K" id="Jqf-NA-kPD">
@@ -949,22 +949,6 @@ Nolan has received many awards and honours. Time named him one of the 100 most i
                                 </cells>
                             </tableViewSection>
                         </sections>
-                        <connections>
-                            <outlet property="ImageView" destination="LBH-Sj-d16" id="OkD-Ws-ch9"/>
-                            <outlet property="ImageView10" destination="TMB-fC-gLl" id="vSZ-ZX-NJi"/>
-                            <outlet property="ImageView11" destination="BNo-Y0-MnM" id="bhv-5q-Uyh"/>
-                            <outlet property="ImageView12" destination="EYD-HH-HpP" id="q3y-7k-wA9"/>
-                            <outlet property="ImageView2" destination="9Q4-Gp-wGd" id="B3W-HN-bGd"/>
-                            <outlet property="ImageView3" destination="RSJ-Ye-wKA" id="A4h-0g-olr"/>
-                            <outlet property="ImageView4" destination="yeO-i7-TMB" id="Ec7-yZ-kV0"/>
-                            <outlet property="ImageView5" destination="JbV-ni-3KY" id="0Rl-PV-MEM"/>
-                            <outlet property="ImageView6" destination="2Wt-IJ-8uj" id="lVK-c2-FDQ"/>
-                            <outlet property="ImageView7" destination="5za-Wy-3My" id="BSe-LP-S8E"/>
-                            <outlet property="ImageView8" destination="cJI-G9-Yhz" id="Oex-Bf-wnW"/>
-                            <outlet property="ImageView9" destination="E6m-VU-AMB" id="pGt-oS-jsW"/>
-                            <outlet property="dataSource" destination="I9J-4d-uA3" id="MZT-MX-2tm"/>
-                            <outlet property="delegate" destination="I9J-4d-uA3" id="j1H-vP-wW7"/>
-                        </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Cast and crew" id="7hD-7C-QHI"/>
                 </tableViewController>
@@ -975,7 +959,7 @@ Nolan has received many awards and honours. Time named him one of the 100 most i
         <!--Tab Bar Controller-->
         <scene sceneID="bnB-g0-orZ">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="SQh-uI-cLE" customClass="TabBarController" customModule="The_Dark_Knight" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="SQh-uI-cLE" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="KXN-ox-WEa">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -983,7 +967,6 @@ Nolan has received many awards and honours. Time named him one of the 100 most i
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <outlet property="tab" destination="KXN-ox-WEa" id="IgL-ll-dVg"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="g8v-11-t98"/>
                         <segue destination="aE7-z0-0Ox" kind="relationship" relationship="viewControllers" id="9gl-3z-Bgy"/>
                         <segue destination="Dgo-Ew-O1a" kind="relationship" relationship="viewControllers" id="e97-S6-I0i"/>
@@ -996,7 +979,7 @@ Nolan has received many awards and honours. Time named him one of the 100 most i
         <!--Trilogy-->
         <scene sceneID="r86-by-O3w">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dgo-Ew-O1a" customClass="NavigationController" customModule="The_Dark_Knight" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dgo-Ew-O1a" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Trilogy" image="icon_movies" id="Lp3-mL-u62"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" alpha="0.0" contentMode="scaleToFill" id="T9C-wR-L85">
@@ -1010,7 +993,6 @@ Nolan has received many awards and honours. Time named him one of the 100 most i
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <outlet property="navigation" destination="T9C-wR-L85" id="3dT-D0-Ypc"/>
                         <segue destination="u2b-vc-jIL" kind="relationship" relationship="rootViewController" id="edz-Jg-LOf"/>
                     </connections>
                 </navigationController>
